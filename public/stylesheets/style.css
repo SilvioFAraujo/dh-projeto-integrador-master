@@ -1,0 +1,445 @@
+/* Definicao da Letra */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
+/* Configuracao da Pagina e Container */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+
+    max-width: 1180px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    background-color: #1D1D1F;
+    box-sizing: border-box;
+}
+
+header .logotipo img {
+    width: 40px;
+}
+
+.area-do-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    padding-left: 35px;
+}
+
+.icons ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links
+.icons, li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.icons img {
+    width: 25px;
+}
+
+/* Área do Carrossel */
+
+section.banner .carousel>img{
+    width: 100%;
+}
+
+section.banner .carousel{
+    position: relative;
+}
+
+section.banner .carousel .controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.banner .carousel .controls button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    width: 60px;
+    height: 100%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+section.banner .carousel .controls button img {
+    width: 15px;
+}
+
+
+/* Área dos Títulos */
+
+.barra-titulo {
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    height: 60px;
+    margin: 15px auto;
+
+    /* border: 1px solid yellow; */
+}
+
+/* Área de Apresentação */
+
+.grid-um,
+.grid-dois {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-um {
+    width: 575px;
+    height: 309px;
+}
+
+.grid-um,
+.grid-dois p {
+    text-align: justify;
+
+}
+
+.grid-um img {
+    width: 575px;
+    height: 300px;
+}
+
+.grid-dois img {
+    width: 575px;
+    height: 309px;
+}
+
+/* Área dos Produtos */
+
+.saiba-mais,
+.produto a{
+    background-color: #D65A31;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    height: 25px;
+    cursor: pointer;
+}
+
+.img-prod {
+
+    width: 209px auto;
+    height: 235px;
+    align-items: center;
+}
+
+.produto img {    
+
+    margin: 1px auto;
+    height: auto;
+}
+
+.back-prod {
+
+    align-items: center;
+
+    width: 250px;
+    height: 450px;
+    padding: 25px;
+    
+}
+
+.produto {
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+
+.produto p {
+    height: 25px;
+}
+
+
+.produto {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Área dos Clientes */
+
+.cliente {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.div-cliente {
+    /* border: 1px solid red; */
+    margin-right: 50px;
+    padding: 50px;
+}
+
+.clientes .cliente img {
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.clientes .cliente .nome-cliente {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.clientes .cliente .comentario-cliente {
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 10px;
+    /* border: 1px solid green; */
+}
+
+/* Área do Newsletter */
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+    height: 100px;
+}
+
+.newsletter h2 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.newsletter input {
+    margin-left: 40px;
+    height: 35px;
+    border: none;
+}
+
+
+/* Área do Footer */
+
+footer {
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+}
+
+.part {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.part h2 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.part a {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.bandeiras ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bandeiras li {
+    padding-left: 10px;
+    align-items: center;
+}
+
+.rodape {
+    background-color: #222831;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+/* .part section {
+    border: 1px solid red;
+} */
+
+.paineis{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    
+}
+
+.painel-esquerdo{
+    background-color: #C4C4C4;
+    width: 250px;
+    height: 600px;
+    margin-right: 65px;
+    justify-content:center;
+}
+
+.painel-direito{
+    
+
+}
+
+.foto-usuario img{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.cadastro{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+.assinatura,
+.cadastro{
+    display: flex;
+    justify-content: left;
+}
+
+.produtos-assinados img{
+margin-top: 15px;
+margin-left: 10px;
+}
+
+.botoes-produto{
+    
+}
+
+.btn-alterar{
+    margin-left: 10px;
+}
+
+.btn-cancelar{
+    color: white;
+    background-color: #D65A31;
+    cursor: pointer;
+    margin-top: 140px;
+    margin-right: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+}
+.btn-alterar{
+    color: white;
+    background-color: #222831;
+    cursor: pointer;
+    margin-top: 140px;
+    margin-right: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.nome-usuario{
+    margin-left: 35px;
+}
+
+.sair-usuario button{
+    margin-left: 30%;
+    border-radius: 15px;
+    margin-top: 130px;
+    background-color: #D65A31;
+    width: 80px;
+}
+
+
+/* Criação CSS da página Descrição do Produto */
+
+
+.lado-esquerdo{
+    max-width: 40%;
+    margin-left: 10%;
+    justify-content: left;
+    margin-bottom: 0%;
+}
+
+.lado-direito{
+    max-width: 40%;
+    margin-left: 10%;
+    justify-content: left;
+}
+
+body container section h2{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-principal{
+    margin-left: 15%;
+}
+
+.area-pagina{
+    margin: 5%;
+    display: flex;
+    
+}
+
+.fotos-secundarias-fone{
+    display: flex;
+    justify-content: center;
+}
+
+
+.finalizar{
+    height: 5vh;
+    width: 20vh;
+    margin-bottom: 5vh;
+    margin-left: 80%;
+    background-color: #D65A31;
+    box-shadow: #094c66 4px 4px 0px;
+    border-radius: 8px;
+    transition: transform 200ms, box-shadow 200ms;
+}
+
+.finalizar:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+
+.valor{
+    margin-top: 5vh;
+}
