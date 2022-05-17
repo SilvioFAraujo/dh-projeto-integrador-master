@@ -1,0 +1,15 @@
+.produto{
+    align-items: center;
+
+}
+
+.fones{
+    display: flex;
+    justify-content: center;
+
+}
+
+.teste{
+    display: flex;
+    
+}
